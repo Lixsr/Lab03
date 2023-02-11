@@ -1,3 +1,5 @@
+package Lab03;
+
 public class Sorter {
     public static void main(String[] args) {
         int[] array = {1,4,5,9,0,0,1,2,3};
@@ -31,5 +33,10 @@ public class Sorter {
             }
             array[i+1] = key;
         }
+    }
+    // sort array
+    public static void sort (int array [])
+    {
+        insertionSort(array);
     }
 }
